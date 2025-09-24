@@ -53,7 +53,7 @@ func getUserInput() (float64, string, string) {
 	firstCurrency := getCurrency()
 	fmt.Println("Enter amount: ")
 	amount := getFloat()
-	fmt.Println("Enter a first currency (USD, EUR, RUB): ")
+	fmt.Println("Enter a target currency (USD, EUR, RUB): ")
 	secondCurrency := getCurrency()
 	return amount, firstCurrency, secondCurrency
 }
