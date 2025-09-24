@@ -10,3 +10,12 @@ func main() {
 	rstRUB := rstEUR * fromEURtoRUB
 	fmt.Println(rstRUB)
 }
+
+func getUserInput() float64 {
+	usd := 0.0
+	fmt.Println("Enter amount in USD:")
+	fmt.Scanln(&usd)
+	return usd
+}
+
+func convertUSDtoEUR(amount, usd, eur float64) float64 { return 0 }
